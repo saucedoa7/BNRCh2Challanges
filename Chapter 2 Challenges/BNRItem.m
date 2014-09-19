@@ -46,6 +46,12 @@
     return self;
 }
 
+#pragma mark (Silver pt2) Implement the initializer (Done)
+
+-(instancetype)initWithItemName:(NSString *)name serialNumber:(NSString *)sNumber{
+    return [self initWithItemName:@"" serialNumber:@""];
+}
+
 #pragma mark (9) Call the designated initializer
 
 //passing the information it is given for the _itemName and default values for the other arguments.”

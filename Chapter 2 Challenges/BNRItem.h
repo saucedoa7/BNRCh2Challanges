@@ -36,6 +36,14 @@ int _defence;
 
 -(instancetype)initWithItemName:(NSString *)name;
 
+#pragma mark (Silver pt1) “Create another initializer method for the BNRItem class.” (Done)
+
+//“It takes an instance of NSString that identifies the itemName of the item and an instance of NSString that identifies the serialNumber.”
+
+-(instancetype)initWithItemName:(NSString *)name
+                   serialNumber:(NSString *)sNumber;
+
+
 #pragma mark (2) Create setters and getters
 
 -(void)setItemName:(NSString *)str;
