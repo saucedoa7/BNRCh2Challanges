@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5082A5F319CBACFF00348971 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5082A5F219CBACFF00348971 /* BNRItem.m */; };
 		5088B1F519CBA6F400BC66AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5088B1F419CBA6F400BC66AA /* Foundation.framework */; };
 		5088B1F819CBA6F400BC66AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5088B1F719CBA6F400BC66AA /* main.m */; };
 		5088B1FC19CBA6F400BC66AA /* Chapter_2_Challenges.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5088B1FB19CBA6F400BC66AA /* Chapter_2_Challenges.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5082A5F119CBACFF00348971 /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
+		5082A5F219CBACFF00348971 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
 		5088B1F119CBA6F400BC66AA /* Chapter 2 Challenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Chapter 2 Challenges"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5088B1F419CBA6F400BC66AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5088B1F719CBA6F400BC66AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				5088B1F719CBA6F400BC66AA /* main.m */,
+				5082A5F119CBACFF00348971 /* BNRItem.h */,
+				5082A5F219CBACFF00348971 /* BNRItem.m */,
 				5088B1FB19CBA6F400BC66AA /* Chapter_2_Challenges.1 */,
 				5088B1F919CBA6F400BC66AA /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5088B1F819CBA6F400BC66AA /* main.m in Sources */,
+				5082A5F319CBACFF00348971 /* BNRItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +259,7 @@
 				5088B20119CBA6F400BC66AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
